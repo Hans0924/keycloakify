@@ -101,6 +101,8 @@ export declare namespace KcContextBase {
             rememberMe?: boolean;
         };
         usernameEditDisabled: boolean;
+        recaptchaRequired: boolean;
+        recaptchaSiteKey?: string;
         social: {
             displayInfo: boolean;
             providers?: {
