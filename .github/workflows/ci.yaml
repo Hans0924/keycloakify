@@ -110,6 +110,7 @@ jobs:
 
   publish_on_npm:
     runs-on: macos-10.15
+    environment: npm
     needs:
       - update_changelog
       - check_if_version_upgraded
