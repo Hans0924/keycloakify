@@ -156,6 +156,7 @@ export const kcContextMocks: KcContextBase[] = [
         "login": {
             "rememberMe": false,
         },
+        "recaptchaRequired": false,
         "registrationDisabled": false,
     }),
     ...(() => {
