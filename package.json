@@ -34,7 +34,7 @@
             "pre-commit": "lint-staged -v"
         }
     },
-    "author": "Hans0924",
+    "author": "u/zzzzhs",
     "license": "MIT",
     "files": [
         "src/",
